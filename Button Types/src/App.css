@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary { background: #1b2a4a; }
+.btn-success { background: #2e7d4f; }
+.btn-danger  { background: #b3261e; }
+.btn-outline {
+  background: white;
+  color: #1b2a4a;
+  border: 2px solid #1b2a4a;
+}

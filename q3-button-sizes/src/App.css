@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+.btn {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary { background: #1b2a4a; }
+.btn-success { background: #2e7d4f; }
+.btn-danger  { background: #b3261e; }
+
+.btn-small  { padding: 6px 12px;  font-size: 12px; }
+.btn-medium { padding: 10px 20px; font-size: 16px; }
+.btn-large  { padding: 14px 28px; font-size: 20px; }

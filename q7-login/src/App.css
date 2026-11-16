@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form-field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-field input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary { background: #1b2a4a; }
+.message {
+  text-align: center;
+  font-weight: bold;
+  color: #2e7d4f;
+}

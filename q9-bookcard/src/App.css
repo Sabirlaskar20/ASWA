@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #b8912f;
+  text-align: left;
+}
